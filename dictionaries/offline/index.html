@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>संस्कृत-साङ्गणकाः Sanskrit Programmers  | Offline dicts</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.72.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    <link href="/dictionaries/offline/" rel="alternate" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
+    <link href="/dictionaries/offline/" rel="feed" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
+
+    <meta property="og:title" content="Offline dicts" />
+<meta property="og:description" content="Tools elsewhere  Apps! [sp, SJ, GP, BV_GOI]  Make them available on phones as convenient apps (S) and as stardict/ goldendict files (here, A, H). On windows here.    Stardict Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sanskrit-coders.github.io/dictionaries/offline/" />
+
+<meta itemprop="name" content="Offline dicts">
+<meta itemprop="description" content="Tools elsewhere  Apps! [sp, SJ, GP, BV_GOI]  Make them available on phones as convenient apps (S) and as stardict/ goldendict files (here, A, H). On windows here.    Stardict Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use.">
+
+<meta itemprop="wordCount" content="887">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Offline dicts"/>
+<meta name="twitter:description" content="Tools elsewhere  Apps! [sp, SJ, GP, BV_GOI]  Make them available on phones as convenient apps (S) and as stardict/ goldendict files (here, A, H). On windows here.    Stardict Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use."/>
+
+      
+    
+
+    <script src="/webpack_dist/dir_tree-bundle.js"></script>
+    <script type="text/javascript">
+    
+    let baseURL = "https:\/\/sanskrit-coders.github.io\/";
+    let basePath = "/" + baseURL.split("/").slice(3).join("/");
+    let siteParams = JSON.parse("{\u0022contactlink\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/issues\/new\u0022,\u0022disqusshortcode\u0022:\u0022sanskrit-coders-site\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/edit\/hugo-source\/content\/\u0022,\u0022mainSections\u0022:[\u0022content\u0022],\u0022mainsections\u0022:[\u0022content\u0022]}");
+    let pageDefaultsList = JSON.parse("[{\u0022scope\u0022:{\u0022pathPrefix\u0022:\u0022\u0022},\u0022values\u0022:{\u0022comments\u0022:true,\u0022layout\u0022:\u0022page\u0022,\u0022search\u0022:true,\u0022sidebar\u0022:\u0022home_sidebar\u0022}}]");
+    let sidebarsData = JSON.parse("{\u0022home_sidebar\u0022:{\u0022contents\u0022:[{\u0022title\u0022:\u0022Home\u0022,\u0022url\u0022:\u0022\/\u0022},{\u0022title\u0022:\u0022Motivation\u0022,\u0022url\u0022:\u0022\/motivation\/\u0022},{\u0022title\u0022:\u0022Blog\u0022,\u0022url\u0022:\u0022\/posts\/\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/audio\/\u0022}],\u0022title\u0022:\u0022Audio\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/fonts\/\u0022}],\u0022title\u0022:\u0022Fonts\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/ocr\/\u0022}],\u0022title\u0022:\u0022Digitization, OCR\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/site_transliteration\/\u0022}],\u0022title\u0022:\u0022Transliteration\u0022}],\u0022title\u0022:\u0022Content- Publish, Read\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/input\/\u0022}],\u0022title\u0022:\u0022Input\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/dictionaries\/\u0022}],\u0022title\u0022:\u0022Dictionaries\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/grammar\/\u0022}],\u0022title\u0022:\u0022Grammar\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/tips\/\u0022}],\u0022title\u0022:\u0022General tips\u0022},{\u0022title\u0022:\u0022Astronomy\u0022,\u0022url\u0022:\u0022\/astronomy\/\u0022},{\u0022title\u0022:\u0022Misc tools\u0022,\u0022url\u0022:\u0022\/misc-tools\/\u0022},{\u0022title\u0022:\u0022\\u003ci class=\\\u0022fas fa-hand-holding-heart\\\u0022\\u003e\\u003c\/i\\u003eDonate\u0022,\u0022url\u0022:\u0022https:\/\/vvasuki.github.io\/interests\/dharma-via-vishvas\/\u0022}],\u0022title\u0022:\u0022Parts\u0022},\u0022topnav\u0022:{\u0022contents\u0022:[{\u0022title\u0022:\u0022Tools\u0022,\u0022url\u0022:\u0022\/pages\/index.html\u0022},{\u0022title\u0022:\u0022Blog\u0022,\u0022url\u0022:\u0022\/pages\/blog\/index.html\u0022}],\u0022title\u0022:\u0022Parts\u0022}}");
+    let autocompletePageUrl = "\/data\/pages.tsv";
+    
+    var pageRelUrlTree = {};
+</script>
+
+    <script>
+    
+    let pageVars = {};
+    pageVars.pageUrlMinusBasePath = "\/dictionaries\/offline\/".replace(basePath, "/");
+    pageVars.pageParams = {};
+    pageVars.pageSource = "dictionaries\/offline.md";
+    console.log(pageVars.pageSource);
+    var pageDefaults;
+    for (let possiblePageDefaults of pageDefaultsList) {
+      if (pageVars.pageSource.startsWith(possiblePageDefaults.scope.pathPrefix)) {
+        pageDefaults = possiblePageDefaults.values
+      }
+    }
+    
+    </script>
+    <script src="/webpack_dist/main-bundle.js"></script>
+    <script src="/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/non_webpack_js/disqus.js"></script>
+    <script src="/webpack_dist/ui_lib-bundle.js"></script>
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/@fortawesome/fontawesome-free/css/solid.min.css">
+    
+
+    <link rel="stylesheet" href="/css/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+
+    
+    <link rel="alternate" hreflang="sa-Deva" href="https://sanskrit-coders.github.io/dictionaries/offline/" />
+    <link rel="alternate" hreflang="sa-Deva" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=devanagari" />
+    <link rel="alternate" hreflang="sa-Knda" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=kannada" />
+    <link rel="alternate" hreflang="sa-Mlym" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=malayalam" />
+    <link rel="alternate" hreflang="sa-Telu" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=telugu" />
+    <link rel="alternate" hreflang="sa-Taml-t-sa-Taml-m0-superscript" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=tamil_superscripted" />
+    <link rel="alternate" hreflang="sa-Taml" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=tamil" />
+    <link rel="alternate" hreflang="sa-Gran" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=grantha" />
+    <link rel="alternate" hreflang="sa-Gujr" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=gujarati" />
+    <link rel="alternate" hreflang="sa-Orya" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=oriya" />
+    <link rel="alternate" hreflang="sa-Beng-t-sa-Beng-m0-assamese" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=assamese" />
+    <link rel="alternate" hreflang="sa-Beng" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=bengali" />
+    <link rel="alternate" hreflang="sa-Guru" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=gurmukhi" />
+    <link rel="alternate" hreflang="sa-Cyrl" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=cyrillic" />
+    <link rel="alternate" hreflang="sa-Sinh" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=sinhala" />
+    <link rel="alternate" hreflang="sa-Shar" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=sharada" />
+    <link rel="alternate" hreflang="sa-Brah" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=brahmi" />
+    <link rel="alternate" hreflang="sa-Modi" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=modi" />
+    <link rel="alternate" hreflang="sa-Tirh" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=tirhuta_maithili" />
+    <link rel="alternate" hreflang="sa-Latn-t-sa-Zyyy-m0-iast" href="https://sanskrit-coders.github.io/dictionaries/offline/?transliteration_target=iast" />
+  </head>
+
+  <body class="ma0 bg-near-white">
+    
+
+
+    
+<header class="p-1 bg-yellow">
+    <nav role="navigation">
+      <div id="div_top_bar" class="row">
+        <div class="col-md-3 justify-content-start">
+          <a  href="/" class="btn col border">
+            <i class="fas fa-gopuram ">संस्कृत-साङ्गणकाः Sanskrit Programmers <br/> Offline dicts</i>
+          </a>
+        </div>
+        <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
+          <form action="/search">
+            <input id="titleSearchInputBox" placeholder="शीर्षिकान्विष्यताम्" name="s"><i class="btn fas fa-search "></i>
+          </form>
+          <a href="/custom_site_search/"  class="btn btn-default">Full search</a>
+          <select name="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+            <option value="devanagari" selected="">स</option>
+            <option value="iast">ā</option>
+            <option value="kannada">ಅ</option>
+            <option value="malayalam">അ</option>
+            <option value="telugu">క</option>
+            <option value="tamil_superscripted">க²</option>
+            <option value="tamil_extended">க</option>
+            <option value="grantha">𑌅</option>
+            <option value="gujarati">અ</option>
+            <option value="oriya">ଅ</option>
+            <option value="assamese">অস</option>
+            <option value="bengali">অ</option>
+            <option value="gurmukhi">ਅ</option>
+            <option value="cyrillic">пу</option>
+            <option value="sinhala">අ</option>
+            <option value="sharada">𑆑𑇀𑆰</option>
+            <option value="brahmi">𑀅</option>
+            <option value="modi">𑘦𑘻𑘚𑘲</option>
+            <option value="tirhuta_maithili">𑒁</option>
+          </select>
+        </div>
+        <div class="row col  d-flex justify-content-center">
+          <div><a  name="previousPage" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
+          <div ><a name="nextPage" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
+        </div>
+        <ul id="top-bar-right-custom" class="list-group list-group-horizontal">
+        </ul>
+      </div>
+    </nav>
+</header>
+
+    
+    <div class="row" name="contentRow">
+      
+      <aside class="col-md-3 card border " id="sidebar">
+        <div id="sidebarTitle" class="card-title bg-light-gray border d-flex justify-content-between" >
+          <a name="sidebarToggleLink" data-toggle="collapse" href="#sidebar_body" role="button" aria-expanded="true" aria-controls="sidebar_body" onclick="module_main.default.sidebarToggleHandler()">
+            Menu <i class="fas fa-caret-down"></i></a>
+        </div>
+        <nav class="card-body p-0 collapse show" id="sidebar_body">
+          <ul id="displayed_sidebar" class="list pl2 p-2 bg-yellow">
+        </ul>
+        </nav>
+      </aside>
+      <main class="col p-3" role="main">
+        
+<header class='border d-flex justify-content-between'>
+    <h1 id="Offline dicts">Offline dicts</h1>
+    
+    <a id="editLink" class="btn btn-primary"  href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/edit/hugo-source/content/dictionaries/offline.md"><i class="fas fa-edit"></i></a>
+    
+</header>
+<article>
+  <aside id="toc_card" class="card border ">
+    <div id="toc_header" class="card-title border d-flex justify-content-between">
+        <a data-toggle="collapse" href="#toc_body" role="button" aria-expanded="true" aria-controls="toc_body">
+          What's in this page? <i class="fas fa-caret-down"></i> </a>
+    </div>
+    <div id="toc_body" class="card-body collapse p-0">
+      
+      <ul id="toc_ul" class="list p-0">
+      </ul>
+    </div>
+  </aside>
+  <div id="post_content">
+  <h2 id="tools-elsewhere">Tools elsewhere</h2>
+<ul>
+<li>Apps! [<a href="http://sparshapps.com/">sp</a>, <a href="https://play.google.com/store/apps/developer?id=Srujan+Jha">SJ</a>, <a href="https://play.google.com/store/search?q=sanskrit&amp;c=apps&amp;docType=1&amp;sp=CAFiCgoIc2Fuc2tyaXR6BRgAwAECigECCAE%3D:S:ANO1ljKT9XE">GP</a>, <a href="http://sanskrit.bharatavani.in/it-tools/">BV_GOI</a>]
+<ul>
+<li>Make them available on phones as convenient apps (<a href="http://sparshapps.com/">S</a>) and as stardict/ goldendict files (<a href="https://sites.google.com/site/sanskritcode/dictionaries">here</a>, <strong><a href="http://www.aupasana.com/stardict">A</a></strong>, <strong><a href="http://sanskrit.inria.fr/goldendict.html">H</a></strong>).</li>
+<li>On windows <a href="https://sourceforge.net/projects/sandic/files/stats/timeline?dates=2012-03-01+to+2017-04-24">here</a>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="stardict">Stardict</h2>
+<p>Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use.</p>
+<h3 id="motivation">Motivation</h3>
+<p>There are so many dictionary apps. What is the advantage of using this system?</p>
+<ul>
+<li>Usually dictionary apps carry one dictionary, perhaps 5 at most. This system brings many more (100+) dictionaries in one single app.</li>
+<li>So, a user can easily see the descriptions of a word in a dozen dictionaries one below the other.</li>
+<li>Also, both devanAgarI and latin-based scripts are supported for lookups (sometimes even others, like telugu).</li>
+</ul>
+<h3 id="dictionaries">Dictionaries</h3>
+<ul>
+<li>
+<p>We collect and offer several dictionaries (including those prepared elsewhere). A complete list of dictionary indices <a href="https://github.com/sanskrit-coders/stardict-dictionary-updater/blob/master/dictionaryIndices.md">is here</a> (and, mirrored with some delay <a href="https://github.com/nangia/pydictupdater/blob/master/downloader.py#L7">here</a>).</p>
+</li>
+<li>
+<p>These include:</p>
+<ul>
+<li><a href="https://github.com/indic-dict/stardict-sanskrit">stardict-sanskrit project</a>  - see these <a href="https://github.com/indic-dict/stardict-sanskrit/search?utf8=%E2%9C%93&amp;q=filename%3Atars.MD">tars.MD files</a>. </li>
+<li><a href="https://github.com/vvasuki/stardict-kannada">stardict-kannada project</a> :   - see these <a href="https://github.com/indic-dict/stardict-pali/search?utf8=%E2%9C%93&amp;q=filename%3Atars.MD">tars.MD files</a>.. Announcement <a href="https://groups.google.com/forum/#!topic/sanskrit-programmers/qrYQWRU4zhU">here</a>.</li>
+<li><a href="https://github.com/indic-dict/stardict-pali">stardict-pali</a> project: See dictionary archive links in <a href="https://github.com/indic-dict/stardict-pali/blob/master/en-head/tars/tars.MD">tars.MD</a>. Announcement <a href="https://groups.google.com/forum/#!topic/sanskrit-programmers/5XBms03IRus">here</a>.</li>
+<li><a href="https://github.com/indic-dict/stardict-hindi">stardict-hindi</a>.</li>
+<li>stardict-telugu. stardict-tamil.  stardict-bengali.  stardict-assamese.  stardict-marathi. </li>
+<li>And others</li>
+</ul>
+</li>
+</ul>
+<h4 id="stardict-dictionaries-elsewhere">Stardict dictionaries elsewhere:</h4>
+<ul>
+<li>aupAsana.com collection (with very useful installation / usage tips) : <a href="http://www.aupasana.com/stardict">here</a>. Further tips for Linux and Android <a href="https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ">here</a>.</li>
+<li>sanskrit.infria.fr <a href="http://sanskrit.inria.fr/goldendict.html">here</a>.</li>
+</ul>
+<h3 id="how-to-install-and-use-dictionaries-on-your-device">How to install and use dictionaries on your device?</h3>
+<ul>
+<li>Overview:
+<ul>
+<li>install the dictionaries on your device (see recommendations and notes below).</li>
+<li>install a dictionary app (see recommendations and notes below).</li>
+</ul>
+</li>
+<li>Installation of dictionary data is very simple in most cases!</li>
+<li>Instructions from aupAsana.com <a href="http://old.aupasana.com/stardict">here</a>.</li>
+<li>Video tutorials: <a href="https://www.youtube.com/watch?v=bkhD--yCrBI&amp;list=PLmozlYyYE-EQJygdRR0vGVdRtSzvrlFXc">koshadarshanam series</a> by Chandrasekharan Raman of Vyoma pAThashAla</li>
+</ul>
+<h4 id="android">Android:</h4>
+<ul>
+<li>Handouts: <a href="https://drive.google.com/file/d/18H3E7MFiZGVdwvHFyWjJXqlT7eJvk8UW/view">2019</a>.</li>
+<li>If you have Android 5.0+: easy with Stardict Dictionary Installer app on android; available from <a href="https://play.google.com/store/apps/details?id=sanskritcode.sanskritdictionaryupdater">play store</a> or <a href="https://amazon.com/dp/B07HBPZ7P6">amazon store</a> or as an <a href="https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/app/release/app-release.apk">apk</a>
+<ul>
+<li>Ratings certificate: <a href="https://iarcweb.azurewebsites.net/Dashboard/Certificate/74e40614-671c-421e-9969-1c80da21a267">here</a>.</li>
+<li>Code for this is available for any one to copy and modify <a href="https://github.com/indic-dict/stardict-dictionary-updater">here</a>. (May a 1000 apps bloom!) If you want to contribute new dictionaries to the <a href="https://github.com/vvasuki/stardict-sanskrit">stardict-sanskrit project</a>, that is welcome too.</li>
+</ul>
+</li>
+<li>On other Android devices, use <a href="https://github.com/nangia/pydictupdater">https://github.com/nangia/pydictupdater</a> .</li>
+<li>Still having trouble despite the above? Further workaround tips (if they are necessary) for Android are <a href="https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ">in this email</a>.</li>
+</ul>
+<h4 id="desktop-computer-options">Desktop computer options:</h4>
+<ul>
+<li>In windows: <a href="https://archive.org/download/SanskritDictionariesInstaller/SanskritDictionariesInstaller.jar">SanskritDictionariesInstaller.jar</a>  (<a href="https://github.com/avinashvarna/SanskritDictionariesInstaller">github source</a>)</li>
+<li>Install Java and use <a href="https://github.com/sanskrit-coders/dict-tools">dict-tools</a> jar:
+<ul>
+<li>Download <a href="https://github.com/sanskrit-coders/dict-tools/raw/master/bin/artifacts/dict-tools.jar">dict-tools.jar</a>.</li>
+<li><code>java -jar bin/artifacts/dict-tools.jar install --destinationPath=/home/vvasuki/sanskrit-coders/stardict-dicts-installed/ --dictRepoIndexUrl=https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/dictionaryIndices.md</code></li>
+</ul>
+</li>
+<li>Arch linux : <a href="https://aur.archlinux.org/packages/stardict-indic-update/">stardict-indic-update/</a>.</li>
+<li>Install python 2.7 and use <a href="https://github.com/nangia/pydictupdater">https://github.com/nangia/pydictupdater</a></li>
+<li>You could just use the instructions analogous to the ones supplied <a href="https://github.com/indic-dict/stardict-sanskrit/blob/master/README.md">here</a>. </li>
+</ul>
+<h3 id="recommendations-for-dictionary-apps">Recommendations for dictionary apps</h3>
+<h4 id="android-1">Android:</h4>
+<ul>
+<li>Goldendict (paid): <a href="https://play.google.com/store/apps/details?id=mobi.goldendict.android">here</a>.</li>
+</ul>
+<p>Free alternatives:</p>
+<ul>
+<li>ebdic.
+<ul>
+<li>Google play link, inactive as of 2018-08: <a href="https://play.google.com/store/apps/details?id=com.twn.ebdic">com.twn.ebdic</a></li>
+<li>lalitAlAlita strongly endorses this [<a href="https://groups.google.com/d/msg/sanskrit-programmers/z1tCiCwvk04/sU9NEdxQBQAJ">link</a>].</li>
+<li>Install via downloading <a href="https://apkpure.com/ebdic/com.twn.ebdic">apk</a>.</li>
+</ul>
+</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.socialnmobile.colordict">colordict</a>.
+<ul>
+<li>Cannot handle dict.dz files without uncompressing. Slightly higher rate of error reports from this app.</li>
+</ul>
+</li>
+<li>Goldendict free
+<ul>
+<li>The number of active dictionaries is limited to 5. Buy the paid version for ad-free unlimited dictionaries experience.</li>
+</ul>
+</li>
+<li>DictAide (<a href="https://play.google.com/store/apps/details?id=com.arjerine.dictaide&amp;rdid=com.arjerine.dictaide">play store</a>)
+<ul>
+<li>Ad supported.</li>
+<li>Poor unicode support, rather clunky as of 2017.</li>
+</ul>
+</li>
+</ul>
+<h4 id="iphone">iphone</h4>
+<p>2019 handout <a href="https://drive.google.com/file/d/1C-5Nxmwtax7xWjFNDK7wbksMH60pg5gc/view">here</a> replicating aupasana.com instructions.</p>
+<h4 id="desktop-computers">Desktop computers:</h4>
+<ul>
+<li><a href="http://goldendict.org/download.php">Goldendict</a>.</li>
+<li>Special handout for windows users: <a href="https://docs.google.com/document/d/1j8HQ9ySOXekgD56yNsfMAjlWv8XOF4_k-gtUhQVtoYA/edit#">2019</a>.</li>
+</ul>
+<h5 id="mac">Mac</h5>
+<ul>
+<li>use <a href="http://downloads.sourceforge.net/goldendict/goldendict-0.8.0-macosx.dmg">0.8 dmg</a>.
+<ul>
+<li>Note from ajita: &ldquo;The one problem I have with that version is that if I leave it running in the background, and allow the laptop to go to sleep, it crashes. So, I typically exit out of goldendict once I&rsquo;m done with it.&rdquo;</li>
+</ul>
+</li>
+<li>Use the native dictionary app after some conversion (DictUnifier) [<a href="https://groups.google.com/forum/#!searchin/bvparishat/Dictunifier%7Csort:relevance/bvparishat/oAIJWNnosh8/Idx0N9rGQVgJ">BVP13</a>].</li>
+</ul>
+<h3 id="feedback">Feedback</h3>
+<ul>
+<li><a href="https://groups.google.com/forum/#!searchin/bvparishat/stardict%7Csort:relevance/bvparishat/HfXleEXdvWM/u8P97bbGAAAJ">BVP201702</a></li>
+</ul>
+<h2 id="for-dict-makers">For Dict makers</h2>
+<h3 id="wiki-downloading">Wiki downloading</h3>
+<ul>
+<li>Catscan <a href="http://tools.wmflabs.org/catscan2/catscan2.php?language=sa&amp;project=wikiquote&amp;depth=1&amp;categories=%E0%A4%B8%E0%A5%81%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%A8%E0%A4%BF&amp;ns%5B0%5D=1&amp;ns%5B14%5D=1&amp;get_q=1&amp;doit=1">here</a>.</li>
+</ul>
+<h3 id="plans">Plans</h3>
+<ul>
+<li>Make new dictionaries
+<ul>
+<li>gAndhArI dictionary (&rdquo; Once it is complete and correct (a goal we hope to achieve in the next few years), we will publish it under a Creative Commons license that will allow redistribution.&quot;)</li>
+<li>DSAL (&ldquo;We are preparing apps for some of the Hindi and other dictionaries under new grant funding. But the Hindi Shabdasagar is under a license which does not permit production of a mobile version.&quot;)</li>
+<li>sandic DP <a href="https://sourceforge.net/projects/dhatu-patha/files/sources/">here</a>.</li>
+<li>Monier williams : sanskrit terms in entries.</li>
+<li>ChandaH</li>
+<li>alankArAH</li>
+<li>हिन्दी-कोशाः
+<ul>
+<li>wiktionary</li>
+</ul>
+</li>
+<li>कन्नड-कोशः
+<ul>
+<li>kittel</li>
+</ul>
+</li>
+<li>पद-साधुता-कोशः from DCS।</li>
+<li>Others from IITS Koeln <a href="http://www.sanskrit-lexicon.uni-koeln.de/index.html">here</a>.
+<ul>
+<li>pALI devanAgarI dictionaries.</li>
+</ul>
+</li>
+<li>GOI bhAratavANI <a href="http://bharatavani.in/dictionary-surf/?did=2&amp;letter=%E0%A4%85&amp;start=0&amp;language=Hindi">here</a>.</li>
+<li>संस्कृतम्
+<ul>
+<li>अमरकोशः
+<ul>
+<li>बहुभाषा-अमरकोशः <a href="http://sanskrit.jnu.ac.in/amara/viewdata.jsp?varga=27">अत्र</a>।</li>
+<li>अजितस्य हिन्दी-अमर-कोशः।</li>
+</ul>
+</li>
+<li>तिरुपतिस्थ-राष्ट्रियसंस्कृतविद्यापीठस्य प्रकाशनानि <a href="http://www.wilbourhall.org/sansknet/">अत्र</a>।</li>
+<li>ए​वं प्र​त्येकस्याऽपि शब्दस्य व्याकरण-विशेषप्रदर्शकास् स्युः कोशाः। 
+<ul>
+<li>कश्चित् स्वकोशे &ldquo;जक्ष्&quot;धातुं पश्यतीति चिन्त्यताम्। यदि तत्क्षणं सः अदादिगणे धातुरयं जक्षाद्यन्तर्गने पाठित इति सूच्यते, शुद्धप्रयोगे तल् लाभाय। अथवा कश्चित् &ldquo;अन्य&rdquo;-शब्दपरीक्षको ज्ञाप्यते चेत् &ldquo;सर्वादिगणे दृश्यते शब्दोऽयम्&rdquo; इति, पुनस् स एव लाभः।</li>
+</ul>
+</li>
+<li>मनीषस्य संस्कृत-कोशाः।</li>
+<li>संस्कृत-कन्नड-कोशः। (अर्जुनेन चर्च्यते।)</li>
+<li>संस्कृतभारती-प्रकाशनानि</li>
+</ul>
+</li>
+<li>rAmAyaNa-vyAkhyA-koshaH <a href="http://www.valmiki.iitk.ac.in/content?field_kanda_tid=1&amp;field_sarga_value=1&amp;field_sloka_value=78&amp;language=dv&amp;enable_contplay=1&amp;sckt=1&amp;scgr=1&amp;scty=1&amp;scaa=1&amp;scmt=1&amp;scnb=1&amp;scss=1">itaH</a>.</li>
+<li>Sanskrit picture dictionary. (Useful in producing illustrated versions of kAvya-s.)</li>
+<li>Ayurveda
+<ul>
+<li>e-nighaNTu koshas <a href="http://niimh.nic.in/ebooks/e-Nighantu/?mod=read">here</a>. (copy pasting complete chapters, do minor processing to get prAtipadika-s)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fix defects
+<ul>
+<li>mAdhavIya-dhAtu-vRtti etc.. [Details <a href="https://groups.google.com/forum/#!topic/samskrita/Lv8pWfV1ZAw">here</a>]</li>
+</ul>
+</li>
+<li>Package dictionaries better
+<ul>
+<li>For linux</li>
+<li>For Android</li>
+<li>Provide an online interface.</li>
+</ul>
+</li>
+</ul>
+<h3 id="general-guidelines">General guidelines</h3>
+<ul>
+<li>Never reinvent the wheel - for example, if you can exploit preexisting dictionary format software, don&rsquo;t waste time writing a new one. Same with dictionaries.</li>
+<li>Always publish and maintain the dictionary sources in some simple form parseable by both humans and machines, so that you can make/ accept corrections; and people can transform it easily into whatever format they&rsquo;re comfortable with - say text or html files or stardict or babylon.</li>
+<li>When you make dictionaries out of certain published sources (such as IITS Koeln), please do so with (I&rsquo;d suggest python or scala) scripts which can be reused to update the stardict/ babylon files when the source files are updated with corrections. That is - don&rsquo;t do it manually in a text editor.</li>
+</ul>
+
+  </div>
+</article>
+
+
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit-coders.github.io/dictionaries/offline/">Offline dicts </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: Offline dicts</li>
+        
+    </nav>
+</aside>
+
+
+      </main>
+    </div>
+    <footer class="bg-yellow  p-1" role="contentinfo">
+  <div id="disqus_thread"></div>
+  <div id="div_footer_bar" class="container-fluid d-flex justify-content-between">
+    <a class="btn btn-secondary" href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/issues/new" >
+      प्रतिस्पन्दः
+    </a>
+    <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+    <div class="btn small border">
+      Built on 2020 Oct 31 12:42:55 UTC. (<a href="http://google.com/search?q=12%3a42%3a55%20UTC to IST">IST</a>)
+    </div>
+  <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
+  </ul>
+  </div>
+</footer>
+
+  </body>
+  <script type='text/javascript'>
+    
+    
+    
+    module_main.default.onDocumentReadyTasks();
+  </script>
+</html>

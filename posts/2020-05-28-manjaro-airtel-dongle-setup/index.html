@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>संस्कृत-साङ्गणकाः Sanskrit Programmers  | Manjaro- Airtel dongle setup</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.72.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    <link href="/posts/2020-05-28-manjaro-airtel-dongle-setup/" rel="alternate" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
+    <link href="/posts/2020-05-28-manjaro-airtel-dongle-setup/" rel="feed" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
+
+    <meta property="og:title" content="Manjaro- Airtel dongle setup" />
+<meta property="og:description" content="Recipe  Make sure that the dongle works fine on a Windows computer. Upgrade firmware using the autorun program if possible. Start the computer and login. Install modem-manager-gui. Insert the data / internet dongle.  Wait for it to mount. You may see an autorun prompt - ignore it.   Run sudo bash /run/media/USERNAME/airtel/Linux/install (Assuming that the dongle is mounted at /run/media/USERNAME/airtel). (Files seen in this repo.)  You will see erroneous output such as the one &ldquo;Install script output&rdquo; appended below." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/" />
+<meta property="article:published_time" content="2020-05-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-28T00:00:00+00:00" />
+<meta itemprop="name" content="Manjaro- Airtel dongle setup">
+<meta itemprop="description" content="Recipe  Make sure that the dongle works fine on a Windows computer. Upgrade firmware using the autorun program if possible. Start the computer and login. Install modem-manager-gui. Insert the data / internet dongle.  Wait for it to mount. You may see an autorun prompt - ignore it.   Run sudo bash /run/media/USERNAME/airtel/Linux/install (Assuming that the dongle is mounted at /run/media/USERNAME/airtel). (Files seen in this repo.)  You will see erroneous output such as the one &ldquo;Install script output&rdquo; appended below.">
+<meta itemprop="datePublished" content="2020-05-28T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-28T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="551">
+
+
+
+<meta itemprop="keywords" content="news," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Manjaro- Airtel dongle setup"/>
+<meta name="twitter:description" content="Recipe  Make sure that the dongle works fine on a Windows computer. Upgrade firmware using the autorun program if possible. Start the computer and login. Install modem-manager-gui. Insert the data / internet dongle.  Wait for it to mount. You may see an autorun prompt - ignore it.   Run sudo bash /run/media/USERNAME/airtel/Linux/install (Assuming that the dongle is mounted at /run/media/USERNAME/airtel). (Files seen in this repo.)  You will see erroneous output such as the one &ldquo;Install script output&rdquo; appended below."/>
+
+      
+    
+
+    <script src="/webpack_dist/dir_tree-bundle.js"></script>
+    <script type="text/javascript">
+    
+    let baseURL = "https:\/\/sanskrit-coders.github.io\/";
+    let basePath = "/" + baseURL.split("/").slice(3).join("/");
+    let siteParams = JSON.parse("{\u0022contactlink\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/issues\/new\u0022,\u0022disqusshortcode\u0022:\u0022sanskrit-coders-site\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/edit\/hugo-source\/content\/\u0022,\u0022mainSections\u0022:[\u0022content\u0022],\u0022mainsections\u0022:[\u0022content\u0022]}");
+    let pageDefaultsList = JSON.parse("[{\u0022scope\u0022:{\u0022pathPrefix\u0022:\u0022\u0022},\u0022values\u0022:{\u0022comments\u0022:true,\u0022layout\u0022:\u0022page\u0022,\u0022search\u0022:true,\u0022sidebar\u0022:\u0022home_sidebar\u0022}}]");
+    let sidebarsData = JSON.parse("{\u0022home_sidebar\u0022:{\u0022contents\u0022:[{\u0022title\u0022:\u0022Home\u0022,\u0022url\u0022:\u0022\/\u0022},{\u0022title\u0022:\u0022Motivation\u0022,\u0022url\u0022:\u0022\/motivation\/\u0022},{\u0022title\u0022:\u0022Blog\u0022,\u0022url\u0022:\u0022\/posts\/\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/audio\/\u0022}],\u0022title\u0022:\u0022Audio\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/fonts\/\u0022}],\u0022title\u0022:\u0022Fonts\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/ocr\/\u0022}],\u0022title\u0022:\u0022Digitization, OCR\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/content\/site_transliteration\/\u0022}],\u0022title\u0022:\u0022Transliteration\u0022}],\u0022title\u0022:\u0022Content- Publish, Read\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/input\/\u0022}],\u0022title\u0022:\u0022Input\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/dictionaries\/\u0022}],\u0022title\u0022:\u0022Dictionaries\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/grammar\/\u0022}],\u0022title\u0022:\u0022Grammar\u0022},{\u0022contents\u0022:[{\u0022url\u0022:\u0022dir:\/\/tips\/\u0022}],\u0022title\u0022:\u0022General tips\u0022},{\u0022title\u0022:\u0022Astronomy\u0022,\u0022url\u0022:\u0022\/astronomy\/\u0022},{\u0022title\u0022:\u0022Misc tools\u0022,\u0022url\u0022:\u0022\/misc-tools\/\u0022},{\u0022title\u0022:\u0022\\u003ci class=\\\u0022fas fa-hand-holding-heart\\\u0022\\u003e\\u003c\/i\\u003eDonate\u0022,\u0022url\u0022:\u0022https:\/\/vvasuki.github.io\/interests\/dharma-via-vishvas\/\u0022}],\u0022title\u0022:\u0022Parts\u0022},\u0022topnav\u0022:{\u0022contents\u0022:[{\u0022title\u0022:\u0022Tools\u0022,\u0022url\u0022:\u0022\/pages\/index.html\u0022},{\u0022title\u0022:\u0022Blog\u0022,\u0022url\u0022:\u0022\/pages\/blog\/index.html\u0022}],\u0022title\u0022:\u0022Parts\u0022}}");
+    let autocompletePageUrl = "\/data\/pages.tsv";
+    
+    var pageRelUrlTree = {};
+</script>
+
+    <script>
+    
+    let pageVars = {};
+    pageVars.pageUrlMinusBasePath = "\/posts\/2020-05-28-manjaro-airtel-dongle-setup\/".replace(basePath, "/");
+    pageVars.pageParams = {};
+    pageVars.pageSource = "posts\/2020-05-28-manjaro-airtel-dongle-setup.md";
+    console.log(pageVars.pageSource);
+    var pageDefaults;
+    for (let possiblePageDefaults of pageDefaultsList) {
+      if (pageVars.pageSource.startsWith(possiblePageDefaults.scope.pathPrefix)) {
+        pageDefaults = possiblePageDefaults.values
+      }
+    }
+    
+    </script>
+    <script src="/webpack_dist/main-bundle.js"></script>
+    <script src="/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/non_webpack_js/disqus.js"></script>
+    <script src="/webpack_dist/ui_lib-bundle.js"></script>
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/@fortawesome/fontawesome-free/css/solid.min.css">
+    
+
+    <link rel="stylesheet" href="/css/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+
+    
+    <link rel="alternate" hreflang="sa-Deva" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/" />
+    <link rel="alternate" hreflang="sa-Deva" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=devanagari" />
+    <link rel="alternate" hreflang="sa-Knda" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=kannada" />
+    <link rel="alternate" hreflang="sa-Mlym" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=malayalam" />
+    <link rel="alternate" hreflang="sa-Telu" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=telugu" />
+    <link rel="alternate" hreflang="sa-Taml-t-sa-Taml-m0-superscript" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=tamil_superscripted" />
+    <link rel="alternate" hreflang="sa-Taml" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=tamil" />
+    <link rel="alternate" hreflang="sa-Gran" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=grantha" />
+    <link rel="alternate" hreflang="sa-Gujr" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=gujarati" />
+    <link rel="alternate" hreflang="sa-Orya" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=oriya" />
+    <link rel="alternate" hreflang="sa-Beng-t-sa-Beng-m0-assamese" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=assamese" />
+    <link rel="alternate" hreflang="sa-Beng" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=bengali" />
+    <link rel="alternate" hreflang="sa-Guru" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=gurmukhi" />
+    <link rel="alternate" hreflang="sa-Cyrl" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=cyrillic" />
+    <link rel="alternate" hreflang="sa-Sinh" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=sinhala" />
+    <link rel="alternate" hreflang="sa-Shar" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=sharada" />
+    <link rel="alternate" hreflang="sa-Brah" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=brahmi" />
+    <link rel="alternate" hreflang="sa-Modi" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=modi" />
+    <link rel="alternate" hreflang="sa-Tirh" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=tirhuta_maithili" />
+    <link rel="alternate" hreflang="sa-Latn-t-sa-Zyyy-m0-iast" href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/?transliteration_target=iast" />
+  </head>
+
+  <body class="ma0 bg-near-white">
+    
+
+
+    
+<header class="p-1 bg-yellow">
+    <nav role="navigation">
+      <div id="div_top_bar" class="row">
+        <div class="col-md-3 justify-content-start">
+          <a  href="/" class="btn col border">
+            <i class="fas fa-gopuram ">संस्कृत-साङ्गणकाः Sanskrit Programmers <br/> Manjaro- Airtel dongle setup</i>
+          </a>
+        </div>
+        <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
+          <form action="/search">
+            <input id="titleSearchInputBox" placeholder="शीर्षिकान्विष्यताम्" name="s"><i class="btn fas fa-search "></i>
+          </form>
+          <a href="/custom_site_search/"  class="btn btn-default">Full search</a>
+          <select name="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+            <option value="devanagari" selected="">स</option>
+            <option value="iast">ā</option>
+            <option value="kannada">ಅ</option>
+            <option value="malayalam">അ</option>
+            <option value="telugu">క</option>
+            <option value="tamil_superscripted">க²</option>
+            <option value="tamil_extended">க</option>
+            <option value="grantha">𑌅</option>
+            <option value="gujarati">અ</option>
+            <option value="oriya">ଅ</option>
+            <option value="assamese">অস</option>
+            <option value="bengali">অ</option>
+            <option value="gurmukhi">ਅ</option>
+            <option value="cyrillic">пу</option>
+            <option value="sinhala">අ</option>
+            <option value="sharada">𑆑𑇀𑆰</option>
+            <option value="brahmi">𑀅</option>
+            <option value="modi">𑘦𑘻𑘚𑘲</option>
+            <option value="tirhuta_maithili">𑒁</option>
+          </select>
+        </div>
+        <div class="row col  d-flex justify-content-center">
+          <div><a  name="previousPage" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
+          <div ><a name="nextPage" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
+        </div>
+        <ul id="top-bar-right-custom" class="list-group list-group-horizontal">
+        </ul>
+      </div>
+    </nav>
+</header>
+
+    
+    <div class="row" name="contentRow">
+      
+      <aside class="col-md-3 card border " id="sidebar">
+        <div id="sidebarTitle" class="card-title bg-light-gray border d-flex justify-content-between" >
+          <a name="sidebarToggleLink" data-toggle="collapse" href="#sidebar_body" role="button" aria-expanded="true" aria-controls="sidebar_body" onclick="module_main.default.sidebarToggleHandler()">
+            Menu <i class="fas fa-caret-down"></i></a>
+        </div>
+        <nav class="card-body p-0 collapse show" id="sidebar_body">
+          <ul id="displayed_sidebar" class="list pl2 p-2 bg-yellow">
+        </ul>
+        </nav>
+      </aside>
+      <main class="col p-3" role="main">
+        
+<header class='border d-flex justify-content-between'>
+    <h1 id="Manjaro- Airtel dongle setup">Manjaro- Airtel dongle setup</h1>
+    
+    <a id="editLink" class="btn btn-primary"  href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/edit/hugo-source/content/posts/2020-05-28-manjaro-airtel-dongle-setup.md"><i class="fas fa-edit"></i></a>
+    
+</header>
+<article>
+  <aside id="toc_card" class="card border ">
+    <div id="toc_header" class="card-title border d-flex justify-content-between">
+        <a data-toggle="collapse" href="#toc_body" role="button" aria-expanded="true" aria-controls="toc_body">
+          What's in this page? <i class="fas fa-caret-down"></i> </a>
+    </div>
+    <div id="toc_body" class="card-body collapse p-0">
+      
+      <ul id="toc_ul" class="list p-0">
+      </ul>
+    </div>
+  </aside>
+  <div id="post_content">
+  <h2 id="recipe">Recipe</h2>
+<ul>
+<li>Make sure that the dongle works fine on a Windows computer. Upgrade firmware using the autorun program if possible.</li>
+<li>Start the computer and login.</li>
+<li>Install <code>modem-manager-gui</code>.</li>
+<li>Insert the data / internet dongle.
+<ul>
+<li>Wait for it to mount. You may see an autorun prompt - ignore it.</li>
+</ul>
+</li>
+<li>Run <code>sudo bash /run/media/USERNAME/airtel/Linux/install</code> (Assuming that the dongle is mounted at <code>/run/media/USERNAME/airtel</code>). (Files seen <a href="https://github.com/vvasuki/airtel_dongle_setup_files">in this repo</a>.)
+<ul>
+<li>You will see erroneous output such as the one &ldquo;Install script output&rdquo; appended below. Just keep pressing enter and finish it.</li>
+</ul>
+</li>
+<li>Run <code>modem-manager-gui</code>. In the GUI, you will see the dongle show up.
+<ul>
+<li>There, create a new connection if one does not exist already. Make sure that username and password fields are empty (this gets autopopulated to admin repeatedly - no problem), APN: airtelgprs.com , disable all those security protocols (possibly doesn&rsquo;t matter).</li>
+<li>Then, click on <code>Activate connection</code> button. Wait to see the <code>success</code> message there.</li>
+</ul>
+</li>
+<li>You should now be able to browse the internet.</li>
+</ul>
+<h2 id="appendix">Appendix</h2>
+<h3 id="install-script-output">Install script output</h3>
+<pre><code>$ sudo bash /run/media/USERNAME/airtel/Linux/install
+Installed version: 23.015.02.11.284
+Installing version: 23.015.02.11.284
+
+The software is exist. Do you want overwrite it? ([Y]/N):
+
+Local path is: /usr/local/airtel
+
+Installing airtel...
+old path =/usr/local/airtel/driver
+modprobe: FATAL: Module option is in use.
+DRIVER COPY START
+STA_PATH_FLAG=.
+STA_PATH_FULL=/usr/local/airtel/driver/install
+START_PATH_DRIVER=/usr/local/airtel/driver
+CURRENT install from ./driver/install
+INSTALL_PATH=/usr/local/airtel
+DRIVER COPY END
+have usb_modeswitch rules to HUAWEI DataCard: COUNT=0
+4
+ttyUSB%n COUNT=4
+3-2:1.4 unbind and bind option
+COUNT_END=3
+3-2:1.3 unbind and bind option
+COUNT_END=2
+3-2:1.1 unbind and bind option
+COUNT_END=1
+3-2:1.0 unbind and bind option
+COUNT_END=0
+rmmod: ERROR: could not remove 'cdc_ether': No such file or directory
+rmmod: ERROR: could not remove module cdc_ether: No such file or directory
+rmmod: ERROR: could not remove 'usbnet': Resource temporarily unavailable
+rmmod: ERROR: could not remove module usbnet: Resource temporarily unavailable
+rmmod: ERROR: could not remove 'hw_cdc_driver': No such file or directory
+rmmod: ERROR: could not remove module hw_cdc_driver: No such file or directory
+make -C src/ clean
+make[1]: Entering directory '/usr/local/airtel/driver/ndis_driver/ndis_src/src'
+rm -rf *.o *.ko *~ core* .dep* .*.d .*.cmd *.mod.c *.a *.s .*.flags .tmp_versions Module.symvers Modules.symvers *.order
+/usr/local/airtel/driver/ndis_driver/ndis_src/src/add_header.sh  &quot;clean&quot; &quot;/lib/modules/5.5.19-1-MANJARO/build/include/linux/usb&quot;
+rmmod -f hw_cdc_driver
+rmmod: ERROR: could not remove 'hw_cdc_driver': No such file or directory
+rmmod: ERROR: could not remove module hw_cdc_driver: No such file or directory
+make[1]: *** [Makefile:39: clean] Error 1
+make[1]: Leaving directory '/usr/local/airtel/driver/ndis_driver/ndis_src/src'
+make: *** [Makefile:30: clean] Error 2
+make -C src/ modules
+make[1]: Entering directory '/usr/local/airtel/driver/ndis_driver/ndis_src/src'
+#/usr/local/airtel/driver/ndis_driver/ndis_src/src/add_header.sh  &quot;modules&quot; &quot;/lib/modules/5.5.19-1-MANJARO/build/include/linux/usb&quot;
+make -C /lib/modules/5.5.19-1-MANJARO/build SUBDIRS=/usr/local/airtel/driver/ndis_driver/ndis_src/src modules
+make[2]: Entering directory '/usr/lib/modules/5.5.19-1-MANJARO/build'
+make[2]: *** No rule to make target 'modules'.  Stop.
+make[2]: Leaving directory '/usr/lib/modules/5.5.19-1-MANJARO/build'
+make[1]: *** [Makefile:33: modules] Error 2
+make[1]: Leaving directory '/usr/local/airtel/driver/ndis_driver/ndis_src/src'
+make: *** [Makefile:27: modules] Error 2
+make -C src/ install
+make[1]: Entering directory '/usr/local/airtel/driver/ndis_driver/ndis_src/src'
+#install -m 744 -c hw_cdc_driver.o /lib/modules/5.5.19-1-MANJARO/kernel/drivers/usb/net
+#depmod -a
+#modprobe hw_cdc_driver
+/usr/local/airtel/driver/ndis_driver/ndis_src/src/add_header.sh  &quot;install&quot;
+modprobe hw_cdc_driver
+modprobe: FATAL: Module hw_cdc_driver not found in directory /lib/modules/5.5.19-1-MANJARO
+make[1]: *** [Makefile:47: install] Error 1
+make[1]: Leaving directory '/usr/local/airtel/driver/ndis_driver/ndis_src/src'
+make: *** [Makefile:33: install] Error 2
+
+Install NDIS driver failed.
+The compiling environment is not all ready.
+Please check gcc, make and kernel buid(/lib/modules/5.5.19-1-MANJARO/build) to be all installed?
+Now please enter any key to finish other installations.
+NDIS is disabled, and only Modem can be used.
+USBSERIAL_TARGET_PATH =
+ACM_TARGET_PATH =
+AUTORUNPATH=/home/pradeepasimha/.config/autostart
+AUTORUNPATH=/home/vvasuki/.config/autostart
+AUTORUNPATH=/home/sanjeev/.config/autostart
+AUTORUNPATH=/root/.config/autostart
+qmi_wwan interface not exist,ok
+ls: cannot access '/dev/cdc-wdm?': No such file or directory
+cdc-wdm%n not exist,ok
+                                                  [ done ]
+
+Finished, press any key to exit
+</code></pre>
+  </div>
+</article>
+
+
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/">2020-05-28  | Manjaro- Airtel dongle setup </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>date: 2020-05-28 00:00:00 &#43;0000 UTC</li>
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>lastmod: 2020-05-28 00:00:00 &#43;0000 UTC</li>
+        
+        <li>publishdate: 2020-05-28 00:00:00 &#43;0000 UTC</li>
+        
+        <li>tags: [news]</li>
+        
+        <li>title: Manjaro- Airtel dongle setup</li>
+        
+    </nav>
+</aside>
+
+
+      </main>
+    </div>
+    <footer class="bg-yellow  p-1" role="contentinfo">
+  <div id="disqus_thread"></div>
+  <div id="div_footer_bar" class="container-fluid d-flex justify-content-between">
+    <a class="btn btn-secondary" href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/issues/new" >
+      प्रतिस्पन्दः
+    </a>
+    <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+    <div class="btn small border">
+      Built on 2020 Oct 31 12:42:55 UTC. (<a href="http://google.com/search?q=12%3a42%3a55%20UTC to IST">IST</a>)
+    </div>
+  <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
+  </ul>
+  </div>
+</footer>
+
+  </body>
+  <script type='text/javascript'>
+    
+    
+    
+    module_main.default.onDocumentReadyTasks();
+  </script>
+</html>
