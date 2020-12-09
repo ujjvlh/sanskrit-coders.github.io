@@ -311,6 +311,16 @@ Initial setup Search depends on additional output content type of JSON in config
     </item>
     
     <item>
+      <title>Telegram</title>
+      <link>https://sanskrit-coders.github.io/bots/telegram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/bots/telegram/</guid>
+      <description>Quiz bots shrI harSh of SB Canada and his son have developed this fascinating quiz bot - GH . (If you are on Samskrita Bharati&amp;rsquo;s telegram channel, or on one of many others, you will have seen the automated quizzes from there.) It gives one a lot of ideas (eg. duolinguo). Please make some and enjoy! Some quiz channels run with this bot:
+ http://t.me/sbbg20 http://t.me/kathaaH http://t.me/padakoSaH  </description>
+    </item>
+    
+    <item>
       <title>Testing</title>
       <link>https://sanskrit-coders.github.io/content/fonts/testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -352,6 +362,20 @@ Transliteration tools, encoding converters Other lists  Technical Hindi list  Wi
       
       <guid>https://sanskrit-coders.github.io/content/websites/</guid>
       <description>Site hosting services  http://sites.google.com  Disadvantages  Google holds your data, which is not easily exportable. New style websites can&amp;rsquo;t be added to Google search console.      Static site generators  Jekyll  Can be used as a wiki - just look at the source for this site. Also see our https://sanskrit-coders.github.io/sanskrit-documentation-theme    Search engine optimization  Google (Includes indexing for custom search)  Observe traffic patterns and crawl status at Search console Submitting a sitemap there submits multiple pages at once for indexing.</description>
+    </item>
+    
+    <item>
+      <title>Whatsapp</title>
+      <link>https://sanskrit-coders.github.io/bots/whatsapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/bots/whatsapp/</guid>
+      <description>SAFIC bots  We have the BOTS for the Vedas and Upanishads and we are working on including Ramayana, Mahabharata, Devimahatmya, bhagavata Purana and many other texts which will be made available on the sam number.
+Welcome to Gita Bot:
+Replace 1.1 with your choice of Chapter and Verse Number
+For Gita Lines - bg 1.1
+For Gita Dict - bg 1.1 dict
+For Gita Audio - bg 1.1 audio</description>
     </item>
     
     <item>
