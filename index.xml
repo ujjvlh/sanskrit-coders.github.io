@@ -48,15 +48,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://sanskrit-coders.github.io/content/teaching_aids/course_management_systems/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sanskrit-coders.github.io/content/teaching_aids/course_management_systems/</guid>
-      <description>Samskrit Bharti Courses Management System Background In Feb 2019, I did my first 10 days Samskrit Sambhashan Shibir. I came to know about this course through whats app. I loved doing the course. But I realized that it took more than 11 years to reach that message to me. Samskrit Bharti Courses have lots of potential but it was not reaching to many people in the country and outside. Many people like me are not even aware that something like this exists.</description>
-    </item>
-    
-    <item>
       <title>Astronomy</title>
       <link>https://sanskrit-coders.github.io/astronomy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -256,7 +247,7 @@ Desiderata (Requirements). The (sometimes competing) objectives are</description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/ocr/ocr-ing/</guid>
-      <description>What&amp;rsquo;s a good OCR?  A good OCR has high accuracy. It may be better to keep the OCR result as separate pages, and have them associated with the original images. This can help in the following ways:  helps proofreading, as described here. it may be helpful to include with each entry a link to the page in the book, so that even if the reader/user suspects OCR errors, they can click on the link and see the original page.</description>
+      <description>What&amp;rsquo;s a good OCR?  A good OCR has high accuracy. It may be better to keep the OCR result as separate pages, and have them associated with the original images. This can help in the following ways:  helps proofreading, as described here. it may be helpful to include with each entry a link to the page in the book, so that even if the reader/user suspects OCR errors, they can click on the link and see the original page.</description>
     </item>
     
     <item>
@@ -276,6 +267,16 @@ Desiderata (Requirements). The (sometimes competing) objectives are</description
       <guid>https://sanskrit-coders.github.io/tips/py-unicode/</guid>
       <description>[ Culled from emails by shreevatsa and anubhav. ]
 General tips  Detailed information  You canread thisor the introductionsection hereto get a rough understanding of the issues involved, as I mentioned before onthis mailing list here.] Handling text correctly Getting Unicode right in Python   When programming in Python, always remain aware of whether a particular object is &amp;ldquo;unicode&amp;rdquo; (code points) or &amp;ldquo;str&amp;rdquo; (bytes).  Basically, Unicode code points logically represent a character (like &amp;ldquo;092E: DEVANAGARI LETTER MA&amp;rdquo;), independent of encoding.</description>
+    </item>
+    
+    <item>
+      <title>Samskrit Bharti Courses Management System</title>
+      <link>https://sanskrit-coders.github.io/content/teaching_aids/course_management_systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/content/teaching_aids/course_management_systems/</guid>
+      <description>(The below was contributed by the author of the software.)
+Background In Feb 2019, I did my first 10 days Samskrit Sambhashan Shibir. I came to know about this course through whats app. I loved doing the course. But I realized that it took more than 11 years to reach that message to me. Samskrit Bharti Courses have lots of potential but it was not reaching to many people in the country and outside.</description>
     </item>
     
     <item>
@@ -325,8 +326,7 @@ Initial setup Search depends on additional output content type of JSON in config
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/bots/telegram/</guid>
-      <description>Quiz bots shrI harSh of SB Canada and his son have developed this fascinating quiz bot - GH . (If you are on Samskrita Bharati&amp;rsquo;s telegram channel, or on one of many others, you will have seen the automated quizzes from there.) It gives one a lot of ideas (eg. duolinguo). Please make some and enjoy! Some quiz channels run with this bot:
- http://t.me/sbbg20 http://t.me/kathaaH http://t.me/padakoSaH  </description>
+      <description>Proramming  Good libraries are available. Just search online.  Quiz bots shrI harSh of SB Canada and his son have developed this fascinating quiz bot - GH . (If you are on Samskrita Bharati&amp;rsquo;s telegram channel, or on one of many others, you will have seen the automated quizzes from there.) It gives one a lot of ideas (eg. duolinguo). Please make some and enjoy! Some quiz channels run with this bot:</description>
     </item>
     
     <item>

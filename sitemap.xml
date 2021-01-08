@@ -47,10 +47,6 @@
   </url>
   
   <url>
-    <loc>https://sanskrit-coders.github.io/content/teaching_aids/course_management_systems/</loc>
-  </url>
-  
-  <url>
     <loc>https://sanskrit-coders.github.io/bots/</loc>
   </url>
   
@@ -180,6 +176,10 @@
   
   <url>
     <loc>https://sanskrit-coders.github.io/tips/py-unicode/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sanskrit-coders.github.io/content/teaching_aids/course_management_systems/</loc>
   </url>
   
   <url>
