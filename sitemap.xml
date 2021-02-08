@@ -43,10 +43,6 @@
   </url>
   
   <url>
-    <loc>https://sanskrit-coders.github.io/content/teaching_aids/</loc>
-  </url>
-  
-  <url>
     <loc>https://sanskrit-coders.github.io/bots/</loc>
   </url>
   
@@ -197,6 +193,10 @@
   
   <url>
     <loc>https://sanskrit-coders.github.io/dictionaries/spellcheck/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sanskrit-coders.github.io/content/teaching_aids/</loc>
   </url>
   
   <url>
