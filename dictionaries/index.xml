@@ -16,10 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/dictionaries/flashcards/</guid>
-      <description>  Flashcards for use with opensource, multi-platform anki software: अत्र च अत्र।
-  Import from csv - first field; second field; tags
- Can use &amp;lt;br&amp;gt; for newlines, select appropriate option while importing.    Manual.
-    Quizlet Sanskrit.
+      <description>  Flashcards for use with opensource, multi-platform anki software: अत्र च अत्र।
+  Import from csv - first field; second field; tags
+ Can use &amp;lt;br&amp;gt; for newlines, select appropriate option while importing.    Manual.
+    Quizlet Sanskrit.
   Flash-cards (Amarakosha, dhAtu-pATha etc..).
   </description>
     </item>
@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/dictionaries/offline/</guid>
-      <description>Tools elsewhere  Apps! [sp, SJ, GP, BV_GOI]  Make them available on phones as convenient apps (S) and as stardict/ goldendict files (here, A, H). On windows here.    Stardict Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use.</description>
+      <description>Tools elsewhere  Apps! [sp, SJ, GP, BV_GOI]  Make them available on phones as convenient apps (S) and as stardict/ goldendict files (here, A, H). On windows here.    Stardict Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       
       <guid>https://sanskrit-coders.github.io/dictionaries/spellcheck/</guid>
       <description>  in several Indian languages: hunspell here
-  hindi-hunspell (includes sanskrit) .
+  hindi-hunspell (includes sanskrit) .
   hindI wiki list here .
   hunspell   intro - suares.
   dic file

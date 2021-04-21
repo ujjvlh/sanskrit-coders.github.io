@@ -16,10 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/grammar/misc/</guid>
-      <description>  Tools to help understand grammer sUtras (3V, T, D, A, Ar).
+      <description>  Tools to help understand grammer sUtras (3V, T, D, A, Ar).
   Also see apps linked under dictionaries.
-  General aShTAdhyAyI simulation (aruNa, )
- pratyAhAra-tools [D, V]. Domain specific languages tailored for the saMskR^ita grammar are beginning to be seen (V).    </description>
+  General aShTAdhyAyI simulation (aruNa, )
+ pratyAhAra-tools [D, V]. Domain specific languages tailored for the saMskR^ita grammar are beginning to be seen (V).    </description>
     </item>
     
     <item>
@@ -57,8 +57,8 @@
       
       <guid>https://sanskrit-coders.github.io/grammar/word-from-root/</guid>
       <description>prAtipadika declension   Produce declensions while showing sUtra-s (D).
-  Inflected word generation is usually based on the &amp;lsquo;word and paradigm&amp;rsquo; model, close to the work such as ruupa chandrikaa which gives the naamaruupaavalii for &amp;lsquo;typical&amp;rsquo; words ending in different var.nas in different lingas.
- (D, I=H1, H, H2, F, B) Apps (ViPra) Limitation: However, as a generative model the above is not perfect because, not being based firmly on pANini&amp;rsquo;s rules (which separate saMskR^ita from apabhraMShA), they may generate wrong inflections.</description>
+  Inflected word generation is usually based on the &amp;lsquo;word and paradigm&amp;rsquo; model, close to the work such as ruupa chandrikaa which gives the naamaruupaavalii for &amp;lsquo;typical&amp;rsquo; words ending in different var.nas in different lingas.
+ (D, I=H1, H, H2, F, B) Apps (ViPra) Limitation: However, as a generative model the above is not perfect because, not being based firmly on pANini&amp;rsquo;s rules (which separate saMskR^ita from apabhraMShA), they may generate wrong inflections.</description>
     </item>
     
   </channel>

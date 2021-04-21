@@ -53,7 +53,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/astronomy/</guid>
-      <description>Stellarium is opensource (launchpad, github). It comes with a developing &amp;ldquo;Indian vedic skyculture&amp;rdquo;, and allows translations with voting (rosetta).  Ephemeris data  DExxx ephemerides from NASA&amp;rsquo;s JPL  Swiss ephemeris  Swiss Ephemeris is based upon the planetary and lunar ephemeris DE431 developed by NASA&amp;rsquo;s Jet Propulsion Laboratory, compressed. Mailing list - swisseph/ Test page - here. Python wrapper - pyswisseph. git here.  Vedic astrology extensions  M.</description>
+      <description>Stellarium is opensource (launchpad, github). It comes with a developing &amp;ldquo;Indian vedic skyculture&amp;rdquo;, and allows translations with voting (rosetta).  Ephemeris data  DExxx ephemerides from NASA&amp;rsquo;s JPL  Swiss ephemeris  Swiss Ephemeris is based upon the planetary and lunar ephemeris DE431 developed by NASA&amp;rsquo;s Jet Propulsion Laboratory, compressed. Mailing list - swisseph/ Test page - here. Python wrapper - pyswisseph. git here.  Vedic astrology extensions  M.</description>
     </item>
     
     <item>
@@ -62,7 +62,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/books/</guid>
-      <description>e-books Advantages फलकादिषु जङ्गमयन्त्रेषु संस्कृतपुस्तकपठनं मे ऽतिरोचते। उदाहरणमत्र वीक्षेथाम्। तेनाधिकसंस्कृतपुस्तकानि तथा प्रकाश्येरन्निति काङ्क्षा मदीया। एवं प्रकाशनं नास्ति कठिनम्। [   MHj9suN    Preparing the files Make epub book
+      <description>e-books Advantages फलकादिषु जङ्गमयन्त्रेषु संस्कृतपुस्तकपठनं मे ऽतिरोचते। उदाहरणमत्र वीक्षेथाम्। तेनाधिकसंस्कृतपुस्तकानि तथा प्रकाश्येरन्निति काङ्क्षा मदीया। एवं प्रकाशनं नास्ति कठिनम्।
+[   MHj9suN   Preparing the files Make epub book
  Using Calibre ( on Ubuntu etc..)  Create an &amp;ldquo;empty book&amp;rdquo;. Create a html with contents (Google Play is fussy about tags. Content should be within  tag. Use a template. Add that content html with Add Books→ Add files to selected book records.</description>
     </item>
     
@@ -113,10 +114,10 @@ Video/ audio conferencing, screen sharing
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/dictionaries/flashcards/</guid>
-      <description>  Flashcards for use with opensource, multi-platform anki software: अत्र च अत्र।
-  Import from csv - first field; second field; tags
- Can use &amp;lt;br&amp;gt; for newlines, select appropriate option while importing.    Manual.
-    Quizlet Sanskrit.
+      <description>  Flashcards for use with opensource, multi-platform anki software: अत्र च अत्र।
+  Import from csv - first field; second field; tags
+ Can use &amp;lt;br&amp;gt; for newlines, select appropriate option while importing.    Manual.
+    Quizlet Sanskrit.
   Flash-cards (Amarakosha, dhAtu-pATha etc..).
   </description>
     </item>
@@ -127,7 +128,7 @@ Video/ audio conferencing, screen sharing
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/input/ime/</guid>
-      <description>Multi-platform solutions  Keyman (from the christian org SIL)  Downloaded site here. devanAgarI ITRANS-based vedic keyboard - KM cloud.  web based version here.      Linux m17n with ibus. Necessary packages:  debian search here.  Suggested ubuntu packages: ibus sanskrit iBus-m17n ibus-qt4 m17n-db m17n-contrib ttf-indic-fonts . See our note here.  Debugging / update tips  Restart ibus: ibus-daemon -Rd MDEBUG_INPUT=1 m17n-edit &amp;ndash;im hi-optitransv2 Configure: m17n-im-config or http://i.</description>
+      <description>Multi-platform solutions  Keyman (from the christian org SIL)  Downloaded site here. devanAgarI ITRANS-based vedic keyboard - KM cloud.  web based version here.      Linux m17n with ibus. Necessary packages:  debian search here. Suggested ubuntu packages: ibus sanskrit iBus-m17n ibus-qt4 m17n-db m17n-contrib ttf-indic-fonts . See our note here.  Debugging / update tips  Restart ibus: ibus-daemon -Rd MDEBUG_INPUT=1 m17n-edit &amp;ndash;im hi-optitransv2 Configure: m17n-im-config or http://i.</description>
     </item>
     
     <item>
@@ -155,10 +156,10 @@ Of course, non-community based, closed source software and restricted data are v
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/grammar/misc/</guid>
-      <description>  Tools to help understand grammer sUtras (3V, T, D, A, Ar).
+      <description>  Tools to help understand grammer sUtras (3V, T, D, A, Ar).
   Also see apps linked under dictionaries.
-  General aShTAdhyAyI simulation (aruNa, )
- pratyAhAra-tools [D, V]. Domain specific languages tailored for the saMskR^ita grammar are beginning to be seen (V).    </description>
+  General aShTAdhyAyI simulation (aruNa, )
+ pratyAhAra-tools [D, V]. Domain specific languages tailored for the saMskR^ita grammar are beginning to be seen (V).    </description>
     </item>
     
     <item>
@@ -190,7 +191,7 @@ Of course, non-community based, closed source software and restricted data are v
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/dictionaries/offline/</guid>
-      <description>Tools elsewhere  Apps! [sp, SJ, GP, BV_GOI]  Make them available on phones as convenient apps (S) and as stardict/ goldendict files (here, A, H). On windows here.    Stardict Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use.</description>
+      <description>Tools elsewhere  Apps! [sp, SJ, GP, BV_GOI]  Make them available on phones as convenient apps (S) and as stardict/ goldendict files (here, A, H). On windows here.    Stardict Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use.</description>
     </item>
     
     <item>
@@ -199,7 +200,7 @@ Of course, non-community based, closed source software and restricted data are v
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/offline-web/</guid>
-      <description>Zim Intro: Zim Zim format( http://www.openzim.org/wiki/Main_Page) is very suitable for making many websites and online books available offline. All this is compressed into a single file of html pages. Thus formatting, java scripts, navigation links to next shlokas, sargas, images, searching, everything is preserved. And all platforms have zim client called kiwix. kiwix-intro .
+      <description>Zim Intro: Zim Zim format( http://www.openzim.org/wiki/Main_Page) is very suitable for making many websites and online books available offline. All this is compressed into a single file of html pages. Thus formatting, java scripts, navigation links to next shlokas, sargas, images, searching, everything is preserved. And all platforms have zim client called kiwix. kiwix-intro .
 Uses Note from shrI dAmodara:
 =======
 To make our texts accessible to all present day people, only way is made it avialble in electronic format , which they have access, now a days more than books.</description>
@@ -211,7 +212,7 @@ To make our texts accessible to all present day people, only way is made it avia
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/input/optitrans/</guid>
-      <description>Objective OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the interpretation of these rules.
+      <description>Objective OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the interpretation of these rules.
 Don&amp;rsquo;t worry - It is simple. Though the rules are intelleligently designed (building on prior experience and expertise), there is no machine learning involved in the actual application of these rules.
 Desiderata (Requirements). The (sometimes competing) objectives are</description>
     </item>
@@ -311,7 +312,7 @@ Initial setup Search depends on additional output content type of JSON in config
       
       <guid>https://sanskrit-coders.github.io/dictionaries/spellcheck/</guid>
       <description>  in several Indian languages: hunspell here
-  hindi-hunspell (includes sanskrit) .
+  hindi-hunspell (includes sanskrit) .
   hindI wiki list here .
   hunspell   intro - suares.
   dic file
@@ -349,7 +350,7 @@ Initial setup Search depends on additional output content type of JSON in config
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/translations/</guid>
-      <description>Translation projects  Ubuntu/ launchpad projects: ubuntu-l10n-sa team. Facebook in Sanskrit : Go here, vote, contribute (if you are confident about your knowledge of Sanskrit). Wikis:  hindI. language status MW.     Apps   Translation UI-s [V - P,]
+      <description>Translation projects  Ubuntu/ launchpad projects: ubuntu-l10n-sa team. Facebook in Sanskrit : Go here, vote, contribute (if you are confident about your knowledge of Sanskrit). Wikis:  hindI. language status MW.     Apps   Translation UI-s [V - P,]
   Automated translation tools listed elsewhere on the site.
   </description>
     </item>
@@ -361,7 +362,7 @@ Initial setup Search depends on additional output content type of JSON in config
       
       <guid>https://sanskrit-coders.github.io/input/transliteration/</guid>
       <description>Some tools/ websites (1W, 2W, ) enable viewing text in script of reader&amp;rsquo;s choice. See separate page here.
-Transliteration tools, encoding converters Other lists  Technical Hindi list  Windows  bhAShA IME with BhashaTrans by venkaTesh is a very powerful free tool for converting archaic encodings to Unicode. Example: SP19.  Web tools  Vindodh&amp;rsquo;s aksharamukha - py, php Shreevatsa LearnSanskrit (Arun) Js ACzoom [flexible table] H Wikimedia BU, BU Dicrunch D C Rd Rp Ar Other tools to convert old custom fonts to unicode (P, T).</description>
+Transliteration tools, encoding converters Other lists  Technical Hindi list  Windows  bhAShA IME with BhashaTrans by venkaTesh is a very powerful free tool for converting archaic encodings to Unicode. Example: SP19.  Web tools  Vindodh&amp;rsquo;s aksharamukha - py, php Shreevatsa LearnSanskrit (Arun) Js ACzoom [flexible table] H Wikimedia BU, BU Dicrunch D C Rd Rp Ar Other tools to convert old custom fonts to unicode (P, T).</description>
     </item>
     
     <item>
@@ -393,7 +394,7 @@ For Gita Audio - bg 1.1 audio</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/wikis/</guid>
-      <description>wikipedia and co  Metawiki stewards  Misc requests : Add gadget. Bot requests: metawiki   wikidata as a structured db!  Properties  list here. items with a property : query . subitems : query.   Setup  Activate useful gadgets in preferences page.     sa-wikisource  admin election.   Export wikisource to epub etc..  Tool.    Wikibots  sanskritnlpbot  approval request [sa-wikisource, then in metawiki, not - w16] Email [SP16]    Presenting sources with commentaries  Ideas: sefaria jewish texts [git], perseus, gItA-supersite.</description>
+      <description>wikipedia and co  Metawiki stewards  Misc requests : Add gadget. Bot requests: metawiki   wikidata as a structured db!  Properties  list here. items with a property : query . subitems : query.   Setup  Activate useful gadgets in preferences page.     sa-wikisource  admin election.   Export wikisource to epub etc..  Tool.    Wikibots  sanskritnlpbot  approval request [sa-wikisource, then in metawiki, not - w16] Email [SP16]    Presenting sources with commentaries  Ideas: sefaria jewish texts [git], perseus, gItA-supersite.</description>
     </item>
     
     <item>
@@ -403,8 +404,8 @@ For Gita Audio - bg 1.1 audio</description>
       
       <guid>https://sanskrit-coders.github.io/grammar/word-from-root/</guid>
       <description>prAtipadika declension   Produce declensions while showing sUtra-s (D).
-  Inflected word generation is usually based on the &amp;lsquo;word and paradigm&amp;rsquo; model, close to the work such as ruupa chandrikaa which gives the naamaruupaavalii for &amp;lsquo;typical&amp;rsquo; words ending in different var.nas in different lingas.
- (D, I=H1, H, H2, F, B) Apps (ViPra) Limitation: However, as a generative model the above is not perfect because, not being based firmly on pANini&amp;rsquo;s rules (which separate saMskR^ita from apabhraMShA), they may generate wrong inflections.</description>
+  Inflected word generation is usually based on the &amp;lsquo;word and paradigm&amp;rsquo; model, close to the work such as ruupa chandrikaa which gives the naamaruupaavalii for &amp;lsquo;typical&amp;rsquo; words ending in different var.nas in different lingas.
+ (D, I=H1, H, H2, F, B) Apps (ViPra) Limitation: However, as a generative model the above is not perfect because, not being based firmly on pANini&amp;rsquo;s rules (which separate saMskR^ita from apabhraMShA), they may generate wrong inflections.</description>
     </item>
     
     <item>

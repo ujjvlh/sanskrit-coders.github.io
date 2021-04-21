@@ -206,14 +206,14 @@ General tips  Detailed information  You canread thisor the introductionsection h
 <ul>
 <li>Always use the &ldquo;unicode&rdquo; type internally. So:
 <ul>
-<li>As soon as you see some input from the external world, decode it immediately [e.g. for a file, the stream of bytes it contains may represent a stream of characters in the &lsquo;utf-8&rsquo; encoding, so decode from the file into &lsquo;unicode&rsquo; characters whenever you read from it], and </li>
+<li>As soon as you see some input from the external world, decode it immediately [e.g. for a file, the stream of bytes it contains may represent a stream of characters in the &lsquo;utf-8&rsquo; encoding, so decode from the file into &lsquo;unicode&rsquo; characters whenever you read from it], and</li>
 </ul>
 </li>
-<li>To this end, I&rsquo;ve taken to putting <br>
+<li>To this end, I&rsquo;ve taken to putting<br>
 &ldquo;from __future__ import unicode_literals&rdquo;<br>
-at the top of my Python programs, so that whenever I write a line of code like <br>
+at the top of my Python programs, so that whenever I write a line of code like<br>
 s = &lsquo;hello world&rsquo;<br>
-it is equivalent to writing <br>
+it is equivalent to writing<br>
 s = u&rsquo;hello world&rsquo;<br>
 That is, so that all literals are interpreted as Unicode by default. This is the default in Python 3.</li>
 </ul>
@@ -224,9 +224,9 @@ That is, so that all literals are interpreted as Unicode by default. This is the
 </ul>
 <h2 id="file-input">File input</h2>
 <ul>
-<li> csv reading:
+<li>csv reading:
 <ul>
-<li>use unicodecsv.reader instead of csv. </li>
+<li>use unicodecsv.reader instead of csv.</li>
 <li>Confusingly, it looks like unicodecsv.reader expects the file to be opened in the default encoding, not UTF-8.</li>
 </ul>
 </li>
@@ -272,7 +272,7 @@ That is, so that all literals are interpreted as Unicode by default. This is the
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 Apr 4 03:03:48 UTC. (<a href="http://google.com/search?q=03%3a03%3a48%20UTC to IST">IST</a>)
+      Built on 2021 Apr 21 03:57:20 UTC. (<a href="http://google.com/search?q=03%3a57%3a20%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>

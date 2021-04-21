@@ -19,14 +19,14 @@
     <link href="/input/optitrans/" rel="feed" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
 
     <meta property="og:title" content="Optitrans" />
-<meta property="og:description" content="Objective OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the interpretation of these rules.
+<meta property="og:description" content="Objective OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the interpretation of these rules.
 Don&rsquo;t worry - It is simple. Though the rules are intelleligently designed (building on prior experience and expertise), there is no machine learning involved in the actual application of these rules.
 Desiderata (Requirements). The (sometimes competing) objectives are" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sanskrit-coders.github.io/input/optitrans/" />
 
 <meta itemprop="name" content="Optitrans">
-<meta itemprop="description" content="Objective OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the interpretation of these rules.
+<meta itemprop="description" content="Objective OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the interpretation of these rules.
 Don&rsquo;t worry - It is simple. Though the rules are intelleligently designed (building on prior experience and expertise), there is no machine learning involved in the actual application of these rules.
 Desiderata (Requirements). The (sometimes competing) objectives are">
 
@@ -36,7 +36,7 @@ Desiderata (Requirements). The (sometimes competing) objectives are">
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Optitrans"/>
-<meta name="twitter:description" content="Objective OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the interpretation of these rules.
+<meta name="twitter:description" content="Objective OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the interpretation of these rules.
 Don&rsquo;t worry - It is simple. Though the rules are intelleligently designed (building on prior experience and expertise), there is no machine learning involved in the actual application of these rules.
 Desiderata (Requirements). The (sometimes competing) objectives are"/>
 
@@ -189,15 +189,15 @@ Desiderata (Requirements). The (sometimes competing) objectives are"/>
   </aside>
   <div id="post_content">
   <h2 id="objective">Objective</h2>
-<p>OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the  interpretation of these rules.</p>
+<p>OptiTrans defines a simple set of rules to produce characters in Indic scripts using ASCII characters. These rules are defined by a transiteration map, and meta-rules describing contextual changes in the  interpretation of these rules.</p>
 <p>Don&rsquo;t worry - It is simple. Though the rules are intelleligently designed (building on prior experience and expertise), there is no machine learning involved in the actual application of these rules.</p>
 <h2 id="desiderata-requirements">Desiderata (Requirements).</h2>
 <p>The (sometimes competing) objectives are</p>
 <ul>
 <li>
-<p>OptiTrans is optimal. Typing effort is minimal. This often implies the following:</p>
+<p>OptiTrans is optimal. Typing effort is minimal. This often implies the following:</p>
 <ul>
-<li>user does not need to press more keys (in terms of number or variety)  than he absolutely needs to.</li>
+<li>user does not need to press more keys (in terms of number or variety)  than he absolutely needs to.</li>
 <li>Lower case is preferable to upper case (it takes effort to press the shift key).</li>
 <li>Pressing the same key twice takes less effort than pressing two different keys.</li>
 </ul>
@@ -219,7 +219,7 @@ Desiderata (Requirements). The (sometimes competing) objectives are"/>
 <li>
 <p>OptiTrans is suitable for both live transliteration and offline batch processing. This implies:</p>
 <ul>
-<li>If इ flashes on the screen before ई appears, that is fine. But, । flashing on the screen before the unrelated symbol  ँ  makes for unintuitive user experience.</li>
+<li>If इ flashes on the screen before ई appears, that is fine. But, । flashing on the screen before the unrelated symbol  ँ  makes for unintuitive user experience.</li>
 </ul>
 </li>
 <li>
@@ -237,7 +237,7 @@ Desiderata (Requirements). The (sometimes competing) objectives are"/>
 </ul>
 <h2 id="transliteration-map">Transliteration map.</h2>
 <ul>
-<li>The latest transliteration table is always available in <a href="https://docs.google.com/spreadsheet/ccc?key=0Al_QBT-hoqqVdHQ1MFZLU0FveUU0SlJRMFJ5MWZPWnc">this online spreadsheet</a>. It lists transliteration rules from OptiTrans and several other popular schemes (including Baraha, Harvard-Kyoto, ITRANS, Velthuis, IAST) for easy comparison.</li>
+<li>The latest transliteration table is always available in <a href="https://docs.google.com/spreadsheet/ccc?key=0Al_QBT-hoqqVdHQ1MFZLU0FveUU0SlJRMFJ5MWZPWnc">this online spreadsheet</a>. It lists transliteration rules from OptiTrans and several other popular schemes (including Baraha, Harvard-Kyoto, ITRANS, Velthuis, IAST) for easy comparison.</li>
 <li>The kannaDa OptiTrans map is different from devanAgarI sanskrit map in that e, ee, o, oo are mapped to ಎ, ಈ, ಒ, ಊ.</li>
 <li>General Indic character map from vinodh&rsquo;s akSharamukhA <a href="http://www.virtualvinodh.com/wp/character-matrix/">here</a>.</li>
 </ul>
@@ -252,14 +252,20 @@ Desiderata (Requirements). The (sometimes competing) objectives are"/>
 <li>
 <p>Avoiding unnecessary &lsquo;a&rsquo;s.</p>
 <ul>
-<li>kml or kamala : कमल </li>
+<li>kml or kamala : कमल</li>
 </ul>
 </li>
 <li>
 <p>Typing vyanjana-s with a virAma</p>
 <ul>
-<li>   sikkt - सिक्त</li>
-<li>   sik;t - सिक्त</li>
+<li>
+<pre><code> sikkt - सिक्त
+</code></pre>
+</li>
+<li>
+<pre><code> sik;t - सिक्त
+</code></pre>
+</li>
 </ul>
 </li>
 <li>
@@ -273,7 +279,7 @@ Desiderata (Requirements). The (sometimes competing) objectives are"/>
 <li>
 <p>Overriding shortcuts</p>
 <ul>
-<li>pashyann  karoti - पश्यन् करोति। (Note two spaces here. Avoids पश्यङ् करोति )</li>
+<li>pashyann  karoti - पश्यन् करोति। (Note two spaces here. Avoids पश्यङ् करोति )</li>
 <li>s<Commit key>h or s&lt;left arrow, right arrow&gt;h or sah or saha - सह (Avoids श)</li>
 </ul>
 </li>
@@ -290,8 +296,8 @@ Desiderata (Requirements). The (sometimes competing) objectives are"/>
 <h2 id="history">History</h2>
 <ul>
 <li>Pick a random Indian off the street and ask him to spell शङ्कर - what you get is &ldquo;shankara&rdquo;, almost never &ldquo;sankara&rdquo; or &ldquo;saMkara&rdquo; or &ldquo;saGkara&rdquo;. ITRANS (developed by an Indian named Avinash) followed this intuitive sense of how it makes sense to type sanskrit sounds in an inadequate alien alphabet. OPTITRANS is but a modification of ITRANS which sought to formalize this intuitive, mostly ITRANS-compatible, spelling.</li>
-<li>In Oct 2012, OPTITRANS v1  was developed mainly for inputting text conveniently using the (mostly Linux) M17N library (please see below) after a discussion in their mailing list.</li>
-<li>Later, OPTITRANS v1 was used in one of Google&rsquo;s indic input tool (where the author used to work).</li>
+<li>In Oct 2012, OPTITRANS v1  was developed mainly for inputting text conveniently using the (mostly Linux) M17N library (please see below) after a discussion in their mailing list.</li>
+<li>Later, OPTITRANS v1 was used in one of Google&rsquo;s indic input tool (where the author used to work).</li>
 <li>In the meantime, OPTITRANS v1 also came to be used to look up words in the stardict dictionary.</li>
 <li>Later in 2015, the experimental OPTITRANS v2 was developed for potentially more efficient text input.</li>
 </ul>
@@ -301,7 +307,7 @@ Desiderata (Requirements). The (sometimes competing) objectives are"/>
 <p>optitransv2</p>
 <ul>
 <li>
-<p>In m17n : <a href="https://github.com/sanskrit-coders/m17n-db/blob/master/MIM/hi-optitransv2.mim">hi-optitransv2.mim</a></p>
+<p>In m17n : <a href="https://github.com/sanskrit-coders/m17n-db/blob/master/MIM/hi-optitransv2.mim">hi-optitransv2.mim</a></p>
 <ul>
 <li>Older versions: ( <a href="http://git.savannah.gnu.org/cgit/m17n/m17n-db.git/tree/MIM/hi-itrans.mim">hi-itrans</a>, <a href="http://git.savannah.gnu.org/cgit/m17n/m17n-db.git/tree/MIM/sa-itrans.mim">sa-itrans</a>)  may be be moved to *-optitrans.</li>
 <li>Installation tips <a href="ime.md">here</a>.</li>
@@ -363,7 +369,7 @@ Desiderata (Requirements). The (sometimes competing) objectives are"/>
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 Apr 4 03:03:48 UTC. (<a href="http://google.com/search?q=03%3a03%3a48%20UTC to IST">IST</a>)
+      Built on 2021 Apr 21 03:57:20 UTC. (<a href="http://google.com/search?q=03%3a57%3a20%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>

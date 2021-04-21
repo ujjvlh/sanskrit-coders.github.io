@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/books/</guid>
-      <description>e-books Advantages फलकादिषु जङ्गमयन्त्रेषु संस्कृतपुस्तकपठनं मे ऽतिरोचते। उदाहरणमत्र वीक्षेथाम्। तेनाधिकसंस्कृतपुस्तकानि तथा प्रकाश्येरन्निति काङ्क्षा मदीया। एवं प्रकाशनं नास्ति कठिनम्। [   MHj9suN    Preparing the files Make epub book
+      <description>e-books Advantages फलकादिषु जङ्गमयन्त्रेषु संस्कृतपुस्तकपठनं मे ऽतिरोचते। उदाहरणमत्र वीक्षेथाम्। तेनाधिकसंस्कृतपुस्तकानि तथा प्रकाश्येरन्निति काङ्क्षा मदीया। एवं प्रकाशनं नास्ति कठिनम्।
+[   MHj9suN   Preparing the files Make epub book
  Using Calibre ( on Ubuntu etc..)  Create an &amp;ldquo;empty book&amp;rdquo;. Create a html with contents (Google Play is fussy about tags. Content should be within  tag. Use a template. Add that content html with Add Books→ Add files to selected book records.</description>
     </item>
     
@@ -53,7 +54,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/offline-web/</guid>
-      <description>Zim Intro: Zim Zim format( http://www.openzim.org/wiki/Main_Page) is very suitable for making many websites and online books available offline. All this is compressed into a single file of html pages. Thus formatting, java scripts, navigation links to next shlokas, sargas, images, searching, everything is preserved. And all platforms have zim client called kiwix. kiwix-intro .
+      <description>Zim Intro: Zim Zim format( http://www.openzim.org/wiki/Main_Page) is very suitable for making many websites and online books available offline. All this is compressed into a single file of html pages. Thus formatting, java scripts, navigation links to next shlokas, sargas, images, searching, everything is preserved. And all platforms have zim client called kiwix. kiwix-intro .
 Uses Note from shrI dAmodara:
 =======
 To make our texts accessible to all present day people, only way is made it avialble in electronic format , which they have access, now a days more than books.</description>
@@ -65,7 +66,7 @@ To make our texts accessible to all present day people, only way is made it avia
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/translations/</guid>
-      <description>Translation projects  Ubuntu/ launchpad projects: ubuntu-l10n-sa team. Facebook in Sanskrit : Go here, vote, contribute (if you are confident about your knowledge of Sanskrit). Wikis:  hindI. language status MW.     Apps   Translation UI-s [V - P,]
+      <description>Translation projects  Ubuntu/ launchpad projects: ubuntu-l10n-sa team. Facebook in Sanskrit : Go here, vote, contribute (if you are confident about your knowledge of Sanskrit). Wikis:  hindI. language status MW.     Apps   Translation UI-s [V - P,]
   Automated translation tools listed elsewhere on the site.
   </description>
     </item>
@@ -85,7 +86,7 @@ To make our texts accessible to all present day people, only way is made it avia
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sanskrit-coders.github.io/content/wikis/</guid>
-      <description>wikipedia and co  Metawiki stewards  Misc requests : Add gadget. Bot requests: metawiki   wikidata as a structured db!  Properties  list here. items with a property : query . subitems : query.   Setup  Activate useful gadgets in preferences page.     sa-wikisource  admin election.   Export wikisource to epub etc..  Tool.    Wikibots  sanskritnlpbot  approval request [sa-wikisource, then in metawiki, not - w16] Email [SP16]    Presenting sources with commentaries  Ideas: sefaria jewish texts [git], perseus, gItA-supersite.</description>
+      <description>wikipedia and co  Metawiki stewards  Misc requests : Add gadget. Bot requests: metawiki   wikidata as a structured db!  Properties  list here. items with a property : query . subitems : query.   Setup  Activate useful gadgets in preferences page.     sa-wikisource  admin election.   Export wikisource to epub etc..  Tool.    Wikibots  sanskritnlpbot  approval request [sa-wikisource, then in metawiki, not - w16] Email [SP16]    Presenting sources with commentaries  Ideas: sefaria jewish texts [git], perseus, gItA-supersite.</description>
     </item>
     
   </channel>
