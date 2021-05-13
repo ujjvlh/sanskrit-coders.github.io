@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="generator" content="Hugo 0.83.1" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -22,16 +22,15 @@
 <meta property="og:description" content="[ Culled from emails by shreevatsa and anubhav. ]
 General tips  Detailed information  You canread thisor the introductionsection hereto get a rough understanding of the issues involved, as I mentioned before onthis mailing list here.] Handling text correctly Getting Unicode right in Python   When programming in Python, always remain aware of whether a particular object is &ldquo;unicode&rdquo; (code points) or &ldquo;str&rdquo; (bytes).  Basically, Unicode code points logically represent a character (like &ldquo;092E: DEVANAGARI LETTER MA&rdquo;), independent of encoding." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sanskrit-coders.github.io/tips/py-unicode/" />
+<meta property="og:url" content="https://sanskrit-coders.github.io/tips/py-unicode/" /><meta property="article:section" content="tips" />
+
+
 
 <meta itemprop="name" content="Py Unicode">
 <meta itemprop="description" content="[ Culled from emails by shreevatsa and anubhav. ]
 General tips  Detailed information  You canread thisor the introductionsection hereto get a rough understanding of the issues involved, as I mentioned before onthis mailing list here.] Handling text correctly Getting Unicode right in Python   When programming in Python, always remain aware of whether a particular object is &ldquo;unicode&rdquo; (code points) or &ldquo;str&rdquo; (bytes).  Basically, Unicode code points logically represent a character (like &ldquo;092E: DEVANAGARI LETTER MA&rdquo;), independent of encoding.">
 
 <meta itemprop="wordCount" content="322">
-
-
-
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Py Unicode"/>
 <meta name="twitter:description" content="[ Culled from emails by shreevatsa and anubhav. ]
@@ -214,7 +213,7 @@ General tips  Detailed information  You canread thisor the introductionsection h
 at the top of my Python programs, so that whenever I write a line of code like<br>
 s = &lsquo;hello world&rsquo;<br>
 it is equivalent to writing<br>
-s = u&rsquo;hello world&rsquo;<br>
+s = u&rsquo;hello world'<br>
 That is, so that all literals are interpreted as Unicode by default. This is the default in Python 3.</li>
 </ul>
 <h2 id="outputting-stuff">Outputting stuff</h2>
@@ -272,7 +271,7 @@ That is, so that all literals are interpreted as Unicode by default. This is the
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 Apr 27 13:07:50 UTC. (<a href="http://google.com/search?q=13%3a07%3a50%20UTC to IST">IST</a>)
+      Built on 2021 May 13 08:17:04 UTC. (<a href="http://google.com/search?q=08%3a17%3a04%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>

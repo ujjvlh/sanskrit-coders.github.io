@@ -5,10 +5,6 @@
     <link>https://sanskrit-coders.github.io/content/site_transliteration/</link>
     <description>Recent content in Site transliteration on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://sanskrit-coders.github.io/content/site_transliteration/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://sanskrit-coders.github.io/content/site_transliteration/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

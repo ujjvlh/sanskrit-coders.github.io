@@ -5,10 +5,6 @@
     <link>https://sanskrit-coders.github.io/dictionaries/formats/</link>
     <description>Recent content in &#43;Misc dict formats on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://sanskrit-coders.github.io/dictionaries/formats/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://sanskrit-coders.github.io/dictionaries/formats/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

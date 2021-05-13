@@ -5,11 +5,7 @@
     <link>https://sanskrit-coders.github.io/grammar/</link>
     <description>Recent content in &#43;Grammar on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://sanskrit-coders.github.io/grammar/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://sanskrit-coders.github.io/grammar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Misc tools</title>
       <link>https://sanskrit-coders.github.io/grammar/misc/</link>

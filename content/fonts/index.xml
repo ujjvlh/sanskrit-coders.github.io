@@ -5,11 +5,7 @@
     <link>https://sanskrit-coders.github.io/content/fonts/</link>
     <description>Recent content in &#43;Fonts on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://sanskrit-coders.github.io/content/fonts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://sanskrit-coders.github.io/content/fonts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing</title>
       <link>https://sanskrit-coders.github.io/content/fonts/testing/</link>
@@ -19,7 +15,7 @@
       <description>Intro  One can only test sequences in font+rendering engine combination.  To test using the harfbuzz rendering engine: Instructions here.
 अत्र (Ctrl-D) pango Supposedly can render with HarBuzz or Uniscribe or CoreText!
   pango-view &amp;ndash;font &amp;ldquo;Sahadeva 40&amp;rdquo; -t अत्र
-  pango-view &amp;ndash;markup &amp;ndash;text &amp;lsquo;&amp;lt;span font_family=&amp;quot;FreeSerif&amp;rdquo; lang=&amp;quot;sa&amp;rdquo; fallback=&amp;quot;false&amp;rdquo;&amp;gt; अत्र&#39;
+  pango-view &amp;ndash;markup &amp;ndash;text &amp;lsquo;&amp;lt;span font_family=&amp;ldquo;FreeSerif&amp;rdquo; lang=&amp;ldquo;sa&amp;rdquo; fallback=&amp;ldquo;false&amp;rdquo;&amp;gt; अत्र&#39;
   Markup language here.
   Testing on Chrome Fonts can also be tested on chrome by following a two step process.</description>
     </item>
