@@ -15,5 +15,14 @@
       <description>Why podcasting?  Listening to stuff is easier. Several people (such as myself) might prefer to listen to audio books and listen to lectures (perhaps during long walks or commutes) rather than read or watch them. There are many popular tools in a variety of platforms to subscribe and listen to podcasts (see subscription guide SB16.). (I use Doggcatcher paid on Android). It turns out to be easier to listen to audio files in this way without the chores such as manual downloads and checking for updates.</description>
     </item>
     
+    <item>
+      <title>Text to speech</title>
+      <link>https://sanskrit-coders.github.io/content/audio/tts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/content/audio/tts/</guid>
+      <description> Google translate hindi (Better to use kannada) dhvani JNU ES  svara-sensitive  suvAk pink-trombone based svara-sensitive. See also hindii.  Python  sanskrit_tts, a Google Cloud text to speech wrapper.  Android  Android app for Samskrita VyavahArasAhasrI uses Hear2Read TTS (https://hear2read.org/solution-android.php) APK and source code for this app is available at - https://github.com/ShivajiDala/SAMVYASA.git .  Related discussions  sanskrit-programmers thread here .  </description>
+    </item>
+    
   </channel>
 </rss>

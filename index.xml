@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>Decoding</title>
+      <link>https://sanskrit-coders.github.io/content/decoding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/content/decoding/</guid>
+      <description>kaTapayAdi decoding  indicjs here, source here. py here. Related thread here.  </description>
+    </item>
+    
+    <item>
       <title>Deep reading</title>
       <link>https://sanskrit-coders.github.io/content/deep-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -147,6 +156,17 @@ Of course, non-community based, closed source software and restricted data are v
     </item>
     
     <item>
+      <title>Meter</title>
+      <link>https://sanskrit-coders.github.io/content/meter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/content/meter/</guid>
+      <description>Web Tools to identify metre
+ skrutable (code at tylergneill/skrutable ) shreevatsa&amp;rsquo;s webapp, source. A python package based on it here. vchandas, source. telugu chandas site (Defunct- D) IITB.  Libraries:
+ python pip chandas package (C C2).  </description>
+    </item>
+    
+    <item>
       <title>Misc tools</title>
       <link>https://sanskrit-coders.github.io/grammar/misc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -166,10 +186,12 @@ Of course, non-community based, closed source software and restricted data are v
       <guid>https://sanskrit-coders.github.io/misc-tools/</guid>
       <description>DLI downloaders
  Seehere. Sh.    Reading scanned books on tablet
- Google Play does a decent job.    Verse Web Tools to identify metre
- vchandas, source. shreevatsa&amp;rsquo;s webapp, source. A python package based on it here. telugu chandas site (Defunct- D) IITB.  Libraries:
- python pip chandas package (C C2).  Interesting collections   Maven and pypi search terms:
- Indic Transliterate Transliteration sanskrit hindi    https://github.</description>
+ Google Play does a decent job.    Interesting collections   Maven and pypi search terms:
+ Indic Transliterate Transliteration sanskrit hindi    https://github.com/sanskrit-coders
+  https://github.com/libindic
+  https://github.com/vedavaapi
+  https://github.com/egangotri
+  Public DB + API List A list of publicly accessible databases here (This can potentially avoid duplication of labor and speed up progress).</description>
     </item>
     
     <item>
@@ -338,6 +360,15 @@ Initial setup Search depends on additional output content type of JSON in config
   pango-view &amp;ndash;markup &amp;ndash;text &amp;lsquo;&amp;lt;span font_family=&amp;ldquo;FreeSerif&amp;rdquo; lang=&amp;ldquo;sa&amp;rdquo; fallback=&amp;ldquo;false&amp;rdquo;&amp;gt; अत्र&#39;
   Markup language here.
   Testing on Chrome Fonts can also be tested on chrome by following a two step process.</description>
+    </item>
+    
+    <item>
+      <title>Text to speech</title>
+      <link>https://sanskrit-coders.github.io/content/audio/tts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/content/audio/tts/</guid>
+      <description> Google translate hindi (Better to use kannada) dhvani JNU ES  svara-sensitive  suvAk pink-trombone based svara-sensitive. See also hindii.  Python  sanskrit_tts, a Google Cloud text to speech wrapper.  Android  Android app for Samskrita VyavahArasAhasrI uses Hear2Read TTS (https://hear2read.org/solution-android.php) APK and source code for this app is available at - https://github.com/ShivajiDala/SAMVYASA.git .  Related discussions  sanskrit-programmers thread here .  </description>
     </item>
     
     <item>

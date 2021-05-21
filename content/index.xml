@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>Decoding</title>
+      <link>https://sanskrit-coders.github.io/content/decoding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/content/decoding/</guid>
+      <description>kaTapayAdi decoding  indicjs here, source here. py here. Related thread here.  </description>
+    </item>
+    
+    <item>
       <title>Deep reading</title>
       <link>https://sanskrit-coders.github.io/content/deep-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -42,6 +51,17 @@
       
       <guid>https://sanskrit-coders.github.io/content/law/</guid>
       <description>Intro Who holds copyright?  &amp;ldquo;As a general principle, although copyright originally belongs to the author, at the time of publication it is transferred to the publisher, or at least the publisher requests from the author an exclusive license / monopoly on distribution. (I think in the US, copyright always ultimately rests with the author and it&amp;rsquo;s just that the author is constrained by the terms of their agreement with the publisher, but in India I believe copyright is usually transferred to the publisher entirely.</description>
+    </item>
+    
+    <item>
+      <title>Meter</title>
+      <link>https://sanskrit-coders.github.io/content/meter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanskrit-coders.github.io/content/meter/</guid>
+      <description>Web Tools to identify metre
+ skrutable (code at tylergneill/skrutable ) shreevatsa&amp;rsquo;s webapp, source. A python package based on it here. vchandas, source. telugu chandas site (Defunct- D) IITB.  Libraries:
+ python pip chandas package (C C2).  </description>
     </item>
     
     <item>
