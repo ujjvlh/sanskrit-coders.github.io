@@ -15,7 +15,7 @@
       <description>Intro  One can only test sequences in font+rendering engine combination.  To test using the harfbuzz rendering engine: Instructions here.
 अत्र (Ctrl-D) pango Supposedly can render with HarBuzz or Uniscribe or CoreText!
   pango-view &amp;ndash;font &amp;ldquo;Sahadeva 40&amp;rdquo; -t अत्र
-  pango-view &amp;ndash;markup &amp;ndash;text &amp;lsquo;&amp;lt;span font_family=&amp;ldquo;FreeSerif&amp;rdquo; lang=&amp;ldquo;sa&amp;rdquo; fallback=&amp;ldquo;false&amp;rdquo;&amp;gt; अत्र&#39;
+  pango-view --markup --text &#39;&amp;lt;span font_family=&amp;quot;Noto Sans&amp;quot; lang=&amp;quot;sa&amp;quot; fallback=&amp;quot;false&amp;quot;&amp;gt; ಲಬ್ಧ್ವಾ &amp;lt;/span&amp;gt;&#39;
   Markup language here.
   Testing on Chrome Fonts can also be tested on chrome by following a two step process.</description>
     </item>
